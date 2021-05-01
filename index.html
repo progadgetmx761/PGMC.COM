@@ -68,37 +68,39 @@
 			<form action="">
 				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
 			</form>
-			<!-- Messenger plugin del chat Code -->
-			<div id="fb-root"></div>
-			<script>
-			  window.fbAsyncInit = function() {
-				FB.init({
-				  xfbml            : true,
-				  version          : 'v10.0'
-				});
-			  };
-	  
-			  (function(d, s, id) {
-				var js, fjs = d.getElementsByTagName(s)[0];
-				if (d.getElementById(id)) return;
-				js = d.createElement(s); js.id = id;
-				js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-				fjs.parentNode.insertBefore(js, fjs);
-			  }(document, 'script', 'facebook-jssdk'));
-			</script>
-	  
-			<!-- Your plugin del chat code -->
-			<div class="fb-customerchat"
-			  attribution="page_inbox"
-			  page_id="101346288775228">
-			</div>
+			
 		</header>
+
+		<!-- Messenger plugin del chat Code -->
+		<div id="fb-root"></div>
+		<script>
+		  window.fbAsyncInit = function() {
+			FB.init({
+			  xfbml            : true,
+			  version          : 'v10.0'
+			});
+		  };
+  
+		  (function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		  }(document, 'script', 'facebook-jssdk'));
+		</script>
+  
+		<!-- Your plugin del chat code -->
+		<div class="fb-customerchat"
+		  attribution="page_inbox"
+		  page_id="101346288775228">
+		</div>
 
 		<section class="grid" id="grid">
 			<div class="item" 
 				 data-categoria="audifonos"
 				 data-etiquetas="audifonosi12 i12 Audifonos Inalambricos inalambricos"
-				 data-descripcion= "http://www.mediafire.com/file/0gsaw0xb1ohkwcy/nivo-slider.rar/file"
+				 data-descripcion= ""
 
 			>
 
