@@ -4,8 +4,15 @@
 	box-sizing: border-box;
 }
 
+.fondo-prod
+{
+	background-color:#000000;
+	
+	border: 10px;
+	border-radius: 10px;
+}
 body {
-	background: url(img/bg-solucoes.jpg);
+	background-color:#000000;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
@@ -14,14 +21,14 @@ body {
 .botones {
 	display: none;
 	color: #ffffff;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .nombreprod
 {
 	color: #ffffff;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	border-radius: 5px;
-	background-color: rgb(0, 38, 255);
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 8px;
+	background-color: rgb(0, 0, 0);
 	font-size: 20px;
 	text-align: center;
 	margin-top: 3px;
@@ -32,12 +39,12 @@ body {
 .precio
 {
 	color: #ffffff;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 3px;
-	background-color: rgb(0, 38, 255);
+	background-color: rgb(0, 0, 0);
 	font-size: 25px;
 	text-align: center;
-	border-radius: 5px;	
+	border-radius: 8px;	
 	background-size: 100%;
 	
 }
@@ -140,6 +147,11 @@ header .categorias a.activo {
 
 .grid .item-contenido {
 	position: relative;
+
+}
+.imggg
+{
+	border-radius: 20px;
 }
 
 .grid .item img {
