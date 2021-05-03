@@ -371,11 +371,12 @@ footer .creado-por a:hover {text-decoration: underline;}
 	header .barra-busqueda {
 		width: 100%;
 	}
-	.nombreprod{
-	font-size: 13px;
+	.nombreprod
+	{
+	font-size: 14px;
 	}
 	.precio
 	{
-		font-size: 15px;
+		font-size: 16px;
 	}
 }
