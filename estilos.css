@@ -69,56 +69,56 @@ header {
 }
 .logoimg{
 width: 60px; height: 60px;
-
+float: left;
 }
-.logo
+.titulo
 {
-	color: #ffffff;
+	color: rgb(255, 255, 255);
+	margin-top: 7px;
+	margin-left: 0px;
+	float: left;
 }
-header .logo {
-	text-align: center;
-	margin-bottom: 40px;
-}
+
 
 header .logo p {
 	color: #ffffff;
 }
 
-header form {
+ .barra-busqueda {
+ 
+	
 	width: 100%;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 20px;
-}
-
-header .barra-busqueda {
-	width: 70%;
 	height: 40px;
 	line-height: 40px;
 	background: #fff;
-	padding: 0 20px;
 	border-radius: 100px;
 	border: none;
 	text-align: center;
 	font-size: 16px;
-	margin-top: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+
 }
 
-header .categorias {
+ .categorias {
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: -30px;
+	margin-top: 5px;
+	float: right;
+	
+	
 }
 
-header .categorias a {
+ .categorias a {
 	color: #ffffff;
 	margin: 10px 20px;
 	font-size: 18px;
 	font-weight: 700;
+	
 }
 
-header .categorias a.activo {
+.categorias a.activo {
 	color: rgb(0, 209, 224);
 }
 

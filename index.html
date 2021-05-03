@@ -34,14 +34,17 @@
 	
 	<div class="contenedor">
 		<header>
+		
 			<div class="logo">
-				<img class="logoimg" src="img/logopg.png" alt="logotipo"></img>
-				<h1>ProGadgetMx.com</h1>
+						<img class="logoimg" src="img/logopg.png" alt="logotipo"></img>
+			
+				<h1 class="titulo">ProGadgetMx.com</h1>
 				
 				
-				<p>¡Los mejores Gadgets a los mejores precios!</p>
+			
 			</div>
-			<div class="categorias" id="categorias">
+			
+	<div class="categorias" id="categorias">
 				<a href="javascript:void(0);" onclick="mostrar();" class="activo">Todos</a>
 				<a href="javascript:void(0);" onclick="ocultar();" >Audifonos</a>
 				<a href="javascript:void(0);" onclick="ocultar();" >PowerBank</a>
@@ -49,29 +52,31 @@
 				<a href="javascript:void(0);" onclick="ocultar();" >Otros</a>
 			</div>
 
-			<div id="slider1" class="slider-wrapper theme-mi-slider">
-				<div id="slider" class="nivoSlider">     
-					<img src="img/1.jpg" alt="" title="#htmlcaption1" />    
-					<img src="img/2.jpg" alt="" title="#htmlcaption2" />    
-					<img src="img/3.jpg" alt="" title="#htmlcaption3" />     
-				</div> 
-				<div id="htmlcaption1" class="nivo-html-caption">     
-					<h1>Sean Bienvenidos</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</div>
-				<div id="htmlcaption2" class="nivo-html-caption">     
-					<h1>Acerca de Nosotros</h1>
-				</div>
-				<div id="htmlcaption3" class="nivo-html-caption">     
-					<h1>Gracias por visitar</h1>
-				</div>
-			</div>
-
-			<form action="">
-				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
-			</form>
+	
 			
 		</header>
+		
+		<form onclick="ocultar();" action="">
+			<input  type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+		</form>
+		
+		<div id="slider1" class="slider-wrapper theme-mi-slider">
+			<div id="slider" class="nivoSlider">     
+				<img src="img/1.jpg" alt="" title="#htmlcaption1" />    
+				<img src="img/2.jpg" alt="" title="#htmlcaption2" />    
+				<img src="img/3.jpg" alt="" title="#htmlcaption3" />     
+			</div> 
+			<div id="htmlcaption1" class="nivo-html-caption">     
+				<h1>Sean Bienvenidos</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
+			<div id="htmlcaption2" class="nivo-html-caption">     
+				<h1>Acerca de Nosotros</h1>
+			</div>
+			<div id="htmlcaption3" class="nivo-html-caption">     
+				<h1>Gracias por visitar</h1>
+			</div>
+		</div>
 
 		<!-- Messenger plugin del chat Code -->
 		<div id="fb-root"></div>
