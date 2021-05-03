@@ -364,7 +364,10 @@ footer .creado-por a:hover {text-decoration: underline;}
 		width: calc(46% - 20px);
 		margin-left: 5%;
 	}
-
+    .titulo{
+		font-size: 16px;
+		margin-top: 20px;
+	}
 	header .barra-busqueda {
 		width: 100%;
 	}
