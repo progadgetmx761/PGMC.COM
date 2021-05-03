@@ -365,10 +365,17 @@ footer .creado-por a:hover {text-decoration: underline;}
 		margin-left: 5%;
 	}
     .titulo{
-		font-size: 23px;
+		font-size: 24px;
 		margin-top: 14px;
 	}
 	header .barra-busqueda {
 		width: 100%;
+	}
+	.nombreprod{
+	font-size: 13px;
+	}
+	.precio
+	{
+		font-size: 15px;
 	}
 }
