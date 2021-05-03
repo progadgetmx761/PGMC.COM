@@ -85,8 +85,6 @@ header .logo p {
 }
 
  .barra-busqueda {
- 
-	
 	width: 90%;
 	height: 40px;
 	line-height: 40px;
@@ -95,12 +93,10 @@ header .logo p {
 	border: none;
 	text-align: center;
 	font-size: 16px;
-	margin-top: 26px;
-	margin-bottom: 20px;
-
-	
-
+	margin-top: 28px;
+	margin-bottom: 14px;
 }
+
 
  .categorias {
 	display: flex;
